@@ -1,2 +1,2 @@
-{rewrites":[{"source"/path:*
+{rewrites":[{"source:"/path/:path*,"
   {.*}","destination":/{ "index.html"}
