@@ -1,8 +1,10 @@
 {
+  "version": 2,
+  "framework": "nextjs",
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/:path*",
+      "destination": "/:path*"
     }
   ]
 }
