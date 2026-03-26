@@ -1,6 +1,4 @@
-```tsx
 "use client";
-
 import React, { useEffect, useState, useRef, useMemo } from 'react';
 import * as THREE from 'three';
 import { 
